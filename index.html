@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Go! StreamTV</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>📺 Go! StreamTV</h1>
+
+    <div class="player">
+
+        <video id="video" controls autoplay></video>
+
+    </div>
+
+    <div class="playlist">
+
+        <button onclick="playVideo('https://duriantvph.itunerworldwide.workers.dev/master.live.m3u8')">
+            DURIAN TV
+        </button>
+      
+        <button onclick="playVideo('https://dreamstartvph.itunerworldwide.workers.dev/master.live.m3u8')">
+            DREAMSTAR TV
+        </button>
+  
+         <button onclick="playVideo('https://startelevisionph.itunerworldwide.workers.dev/master.live.m3U8')">
+            STAR TELEVISION
+        </button>
+
+         <button onclick="playVideo('https://sdtvnetworkph.itunerworldwide.workers.dev/master.live.m3u8')">
+            SDTV NETWORK
+        </button>
+      
+         <button onclick="playVideo('https://sdtvnetworkph.sanmateocable.workers.dev/master.live.m3u8')">
+            PHILIPPINES TELEVISION NETWORK
+        </button>   
+      
+         <button onclick="playVideo('https://highlightstvph.itunerworldwide.workers.dev/master.live.m3u8')">
+            HIGHLIGHTS TV
+        </button>         
+      
+          <button onclick="playVideo('https://hypetvphbydtmmbs.itunerworldwide.workers.dev/master.live.m3u8')">
+            HYPE TV
+         </button> 
+
+          <button onclick="playVideo('https://dreamtvph.itunerworldwide.workers.dev/master.live.m3u8')">
+            DREAM TV PHILIPPINES
+          </button> 
+      
+          <button onclick="playVideo('https://startvphilippines.itunerworldwide.workers.dev/master.live.m3u8')">
+            STAR TV PHILIPPINES            
+          </button>  
+
+          <button onclick="playVideo('https://sineplusph.itunerworldwide.workers.dev/master.live.m3u8')">
+            SINE PLUS            
+          </button>  
+
+          <button onclick="playVideo('https://asiaflixtvph.itunerworldwide.workers.dev/master.live.m3u8')">
+            ASIA FLIX TV            
+          </button>  
+
+                <button onclick="playVideo('https://3rstv.tonia3305.workers.dev/peanut.m3u8')">
+           3RS TV            
+          </button>
+      
+          <button onclick="playVideo('hhttps://3rssinepinoy.tonia3305.workers.dev/mochi.m3u8')">
+          3RS SINE PINOY            
+          </button>
+      
+           <button onclick="playVideo('https://3rsmoviebox.tonia3305.workers.dev/moon.m3u8 ')">
+           3RS MOVIE BOX            
+          </button>
+      
+          <button onclick="playVideo('https://3rscartoonmovies.tonia3305.workers.dev/kolet.m3u8')">
+           3RS CARTOON MOVIES            
+          </button>
+      
+          <button onclick="playVideo('hthttps://southstartv.itunerworldwide.workers.dev/master.live.m3u8')">
+            SOUTH STAR TV            
+          </button>
+      
+        </button>
+      
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
